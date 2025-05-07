@@ -184,7 +184,7 @@ document.querySelector(".generate-btn").addEventListener('click', () => {
     });
 });
 
-document.querySelector(".go").addEventListener('click', () => {
+document.querySelector("go").addEventListener('click', () => {
     var empty = [];
     var params = new URLSearchParams();
     params.set("sex", sex)
